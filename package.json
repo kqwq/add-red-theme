@@ -1,0 +1,26 @@
+{
+    "name": "add-red",
+    "displayName": "add-red",
+    "description": "Replace most of the blue parts of vscode with purple, obviously superior ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Add Red Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Add Red Theme-color-theme.json"
+            }
+        ]
+    },
+    "publisher": "KyleW",
+    "repository": {
+        "type": "git",
+        "url": "add-red-theme"
+    }
+}
